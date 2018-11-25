@@ -10,7 +10,7 @@
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/rel1"
         android:layout_width="match_parent"
-        android:layout_height="271dp"
+        android:layout_height="300dp"
         android:layout_marginBottom="200dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -32,6 +32,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="0dp"
             android:layout_toEndOf="@id/label"
             android:autofillHints=""
             android:hint="@string/input_hint"
@@ -58,16 +60,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/ok"
-            android:layout_alignParentStart="true"
-            android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="179dp"
-            android:layout_marginTop="112dp"
-            android:layout_marginEnd="52dp"
-            android:layout_marginBottom="47dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="75dp"
+            android:layout_marginBottom="83dp"
             android:background="@color/colorPrimaryDark"
-            android:text="@string/LAZER"
-            android:textAlignment="center" />
+            android:text="@string/LAZER" />
+
 
     </RelativeLayout>
 
