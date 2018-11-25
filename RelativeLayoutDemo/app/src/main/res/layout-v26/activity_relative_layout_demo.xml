@@ -57,8 +57,9 @@
             android:id="@+id/lazer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
+            android:layout_alignParentBottom="true"
             android:layout_toEndOf="@id/ok"
+            android:background="@color/colorPrimaryDark"
             android:text="@string/LAZER"
             android:textAlignment="center" />
 
