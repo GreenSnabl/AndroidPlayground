@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EmPub Lite</string>
+    <string name="quick">The <b>quick</b> brown <i>fox</i>...</string>
+    <string name="laughs">He who \'laughs\' last...</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_button">Cool Button</string>
+    <string name="menu_button_clicked">Bool Cutton</string>
+    <string name="le_meme_button_desc">This is le meme button</string>
+    <string name="toggle_button">Toggleroni</string>
+    <string name="Rock">Rock</string>
+    <string name="Paper">Paper</string>
+    <string name="Scissors">Scissors</string>
+</resources>
