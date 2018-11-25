@@ -28,10 +28,7 @@
             android:text="@string/LAZER"
             android:textAlignment="center" />
 
-    </RelativeLayout>
 
-</android.support.constraint.ConstraintLayout>
-<!--
         <TextView
             android:id="@+id/label"
             android:layout_width="wrap_content"
@@ -66,4 +63,6 @@
             android:layout_toStartOf="@id/cancel"
             android:text="@string/ok" />
 
--->
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
