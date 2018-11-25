@@ -24,14 +24,16 @@ android:layout_height="wrap_content">
     android:layout_marginStart="4dip"
     android:text="@string/url"/>
 
-<EditText
-    android:id="@id/entry"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_alignParentTop="true"
-    android:layout_toEndOf="@id/label"
-    android:inputType="text"
-    android:autofillHints="" />
+    <EditText
+        android:id="@id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@id/label"
+        android:autofillHints=""
+        android:hint="@string/gief"
+        android:inputType="text"
+        tools:targetApi="o" />
 
 <Button
     android:id="@+id/ok"
