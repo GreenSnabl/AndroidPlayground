@@ -3,4 +3,5 @@
     <string name="remote">Fernbedinung</string>
     <string name="options">Einstellungen</string>
     <string name="channels">Senderauswahl</string>
+    <string name="picInPic">Bild in Bild</string>
 </resources>

@@ -20,4 +20,9 @@
         android:icon="@drawable/round_format_list_numbered_black_18dp"
         android:title="@string/channels" />
 
+    <item
+        android:id="@+id/picInPic"
+        android:icon="@drawable/baseline_picture_in_picture_alt_black_18dp"
+        android:title="@string/picInPic" />
+
 </menu>
