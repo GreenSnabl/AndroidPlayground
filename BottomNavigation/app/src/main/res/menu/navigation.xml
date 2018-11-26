@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-
     <item
         android:id="@+id/options"
         android:icon="@drawable/ic_dashboard_black_24dp"
-        android:title="@string/options_select" />
-
+        android:title="@string/options" />
 
     <item
         android:id="@+id/remote"
         android:icon="@drawable/ic_home_black_24dp"
-        android:title="@string/remote_select" />
-
+        android:title="@string/remote" />
 
     <item
         android:id="@+id/channels"
         android:icon="@drawable/round_format_list_numbered_black_18dp"
-        android:title="@string/channel_select" />
+        android:title="@string/channels" />
 
 </menu>

@@ -1,4 +1,4 @@
-package com.example.swipeview;
+package com.example.bottomnavigation;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -17,14 +17,14 @@ public class main extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
             switch (item.getItemId()) {
-                case R.id.remote:
-                    mTextMessage.setText(R.string.remote_select);
-                    return true;
                 case R.id.options:
-                    mTextMessage.setText(R.string.options_select);
+                    mTextMessage.setText(R.string.options);
+                    return true;
+                case R.id.remote:
+                    mTextMessage.setText(R.string.remote);
                     return true;
                 case R.id.channels:
-                    mTextMessage.setText(R.string.channel_select);
+                    mTextMessage.setText(R.string.channels);
                     return true;
             }
             return false;
@@ -36,8 +36,8 @@ public class main extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mTextMessage = findViewById(R.id.message);
-        BottomNavigationView navigation = findViewById(R.id.navigation);
+        mTextMessage = (TextView) findViewById(R.id.message);
+        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
 

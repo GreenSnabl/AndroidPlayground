@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+    <string name="options">Einstellungen</string>
+    <string name="remote">Fernbedienung</string>
+    <string name="channels">Senderauswahl</string>
+    <string name="picInPic">Bild in Bild</string>
+</resources>
