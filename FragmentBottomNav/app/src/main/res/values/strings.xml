@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FragmentBottomNav</string>
+    <string name="settings">Einstellungen</string>
+    <string name="remote">Fernbedienung</string>
+    <string name="channels">Senderliste</string>
+    <string name="recorder">Aufnehmen</string>
+</resources>
