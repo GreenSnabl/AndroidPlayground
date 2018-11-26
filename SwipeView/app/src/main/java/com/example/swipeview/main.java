@@ -26,6 +26,9 @@ public class main extends AppCompatActivity {
                 case R.id.channels:
                     mTextMessage.setText(R.string.channel_select);
                     return true;
+                case R.id.picInPic:
+                    mTextMessage.setText(R.string.picInPic);
+                    return true;
             }
             return false;
         }
