@@ -8,10 +8,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class RecorderFragment extends Fragment {
+public class PictureInPictureFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
-        return inflater.inflate(R.layout.fragment_recorder, container, false);
+        return inflater.inflate(R.layout.fragment_picture_in_picture, container, false);
     }
 }

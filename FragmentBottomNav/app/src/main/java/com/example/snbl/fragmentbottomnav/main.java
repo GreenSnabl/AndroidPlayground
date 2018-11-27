@@ -16,9 +16,17 @@ public class main extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
+
+        bottomNav.setSelectedItemId(R.id.nav_remote);
+
+
         bottomNav.setOnNavigationItemSelectedListener(navListener);
 
+
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new RemoteFragment()).commit();
+
+
+
     }
 
     private BottomNavigationView.OnNavigationItemSelectedListener navListener =
@@ -30,16 +38,23 @@ public class main extends AppCompatActivity {
                     switch(item.getItemId()) {
                         case R.id.nav_remote:
                             selectedFragment = new RemoteFragment();
+                            getSupportActionBar().setTitle("Remote");
                             break;
                         case R.id.nav_settings:
                             selectedFragment = new SettingsFragment();
+                            getSupportActionBar().setTitle("Settings");
                             break;
                         case R.id.nav_channels:
                             selectedFragment = new ChannelsFragment();
+                            getSupportActionBar().setTitle("Channels");
                             break;
                         case R.id.nav_recorder:
                             selectedFragment = new RecorderFragment();
+                            getSupportActionBar().setTitle("Recorder");
                             break;
+                        case R.id.nav_picture_in_picture:
+                            selectedFragment = new PictureInPictureFragment();
+                            getSupportActionBar().setTitle("Picture in Picture");
                     }
 
                     getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
