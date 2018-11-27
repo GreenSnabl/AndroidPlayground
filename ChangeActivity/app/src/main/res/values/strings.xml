@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChangeActivity</string>
+    <string name="go_to_activity_2">Go to activity 2</string>
+    <string name="activity_1">Activity 1</string>
+    <string name="moxnox">moxnox</string>
+    <string name="activity_2">Activity 2</string>
+    <string name="go_to_activity_1">Go to activity 1</string>
+    <string name="change_picture">Change picture</string>
+    <string name="dolan">Dolan</string>
+</resources>
