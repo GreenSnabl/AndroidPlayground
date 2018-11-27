@@ -18,6 +18,7 @@ public class main extends AppCompatActivity {
         BottomNavigationView bottomNav = findViewById(R.id.bottom_navigation);
 
         bottomNav.setSelectedItemId(R.id.nav_remote);
+        getSupportActionBar().setTitle("Remote");
 
 
         bottomNav.setOnNavigationItemSelectedListener(navListener);
