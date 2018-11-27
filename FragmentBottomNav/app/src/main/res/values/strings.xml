@@ -4,4 +4,5 @@
     <string name="remote">Fernbedienung</string>
     <string name="channels">Senderliste</string>
     <string name="recorder">Aufnehmen</string>
+    <string name="remote_control">Remote Control</string>
 </resources>
