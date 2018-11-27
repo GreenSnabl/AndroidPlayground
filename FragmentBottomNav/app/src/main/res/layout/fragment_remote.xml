@@ -6,10 +6,39 @@
     android:background="@android:color/holo_red_light">
 
     <TextView
+        android:id="@+id/resultText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
         android:text="@string/remote_control"
         android:textSize="30sp"
-        android:layout_centerInParent="true"/>
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="104dp">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/inputFeld"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:background="#FFFFFFFF"
+            android:hint="@string/wat_wat" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/senden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:text="OK" />
 
 </RelativeLayout>
